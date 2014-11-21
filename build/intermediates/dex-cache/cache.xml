@@ -2,52 +2,76 @@
 <pre-dex-items>
 
     <item
-        dex="/home/henri/Android_dev/com.aware.plugin.lux_meter/lux_meter/build/intermediates/pre-dexed/debug/classes-57893d5664f778085e947b83cf6fc3e3468c3ab8.jar"
-        jar="/home/henri/Android_dev/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/19.1.0/classes.jar"
+        dex="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/build/intermediates/pre-dexed/debug/classes-2fa93af4e6e5e507f2fefb51718bf65e490c4455.jar"
+        jar="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.aware.plugin.lux_meter/aChartAndroidlib/unspecified/classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="af4cc326e6cd92f88db12298767e521743aedd36"/>
+        sha1="047c85ad7163c163b4c4fa7ec2f03b1c4dbd354f"/>
     <item
-        dex="/home/henri/Android_dev/com.aware.plugin.lux_meter/lux_meter/build/intermediates/pre-dexed/debug/classes-5f6f09f3f6cb151fc1a746866b4a8f6918afe667.jar"
-        jar="/home/henri/Android_dev/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.aware.plugin.lux_meter/aChartAndroidlib/unspecified/classes.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="3f9944db4fb0515bcf62b69a1b9ccf305dc8d517"/>
-    <item
-        dex="/home/henri/Android_dev/com.aware.plugin.lux_meter/lux_meter/build/intermediates/pre-dexed/debug/support-v4-19.1.0-bfe6379f31d17615f5ca4b83bd0a7235fba0720f.jar"
-        jar="/usr/share/android-studio/data/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
-    <item
-        dex="/home/henri/Android_dev/com.aware.plugin.lux_meter/lux_meter/build/intermediates/pre-dexed/debug/classes-6931766a965a2c0ea1413b8af6f2c398d6c58f43.jar"
-        jar="/home/henri/Android_dev/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.aware.plugin.lux_meter/aware-core/unspecified/classes.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="a2e424d7508ce072145360fb8336acb91df0216b"/>
-    <item
-        dex="/home/henri/Android_dev/com.aware.plugin.lux_meter/lux_meter/build/intermediates/pre-dexed/debug/zbar-aa5277ebbcf29f8d2f0f0502e641dff627f53506.jar"
-        jar="/home/henri/Android_dev/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.aware.plugin.lux_meter/aware-core/unspecified/libs/zbar.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="0a7b88ba1496a0b4af76069ad40dacd3897149e0"/>
-    <item
-        dex="/home/henri/Android_dev/com.aware.plugin.lux_meter/lux_meter/build/intermediates/pre-dexed/debug/classes-fcec4c620796b52c745a1a7c76eec3d4d5325b2b.jar"
-        jar="/home/henri/Android_dev/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
-    <item
-        dex="/home/henri/Android_dev/com.aware.plugin.lux_meter/lux_meter/build/intermediates/pre-dexed/debug/mqtt-client-0.4.0-8e628cbd1b47d59299571ab3da6321a3371b1a34.jar"
-        jar="/home/henri/Android_dev/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.aware.plugin.lux_meter/aware-core/unspecified/libs/mqtt-client-0.4.0.jar"
+        dex="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/build/intermediates/pre-dexed/debug/mqtt-client-0.4.0-1e9861d8eeb75b0dd2c9f723e2efbde63f4b196f.jar"
+        jar="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.aware.plugin.lux_meter/aware-core/unspecified/libs/mqtt-client-0.4.0.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="02315d1759d01e52495e040e6e538aaa2e91c7f6"/>
     <item
-        dex="/home/henri/Android_dev/com.aware.plugin.lux_meter/lux_meter/build/intermediates/pre-dexed/debug/achartengine-1.1.0-a8c100e64afb7c1d99c3de9c6fd3a600ded86932.jar"
-        jar="/home/henri/Android_dev/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.aware.plugin.lux_meter/aChartAndroidlib/unspecified/libs/achartengine-1.1.0.jar"
+        dex="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/build/intermediates/pre-dexed/debug/zbar-b5ad99b09ed0e7f4526ec326c99d5de531a2f7a5.jar"
+        jar="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.aware.plugin.lux_meter/aware-core/unspecified/libs/zbar.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="0a7b88ba1496a0b4af76069ad40dacd3897149e0"/>
+    <item
+        dex="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/build/intermediates/pre-dexed/debug/achartengine-1.1.0-512a720c5e12d18f6c32e48f096fd5e4526392cf.jar"
+        jar="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.aware.plugin.lux_meter/aChartAndroidlib/unspecified/libs/achartengine-1.1.0.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250"/>
+    <item
+        dex="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/build/intermediates/pre-dexed/debug/classes-6c8b71c2d4806debc31fe3ee83c01eb9f709a7f8.jar"
+        jar="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6"/>
+    <item
+        dex="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/build/intermediates/pre-dexed/debug/classes-1d699db0cbd85e196e72da0939262d93d17be3f1.jar"
+        jar="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="7d2525cba8ed61fff102977caed964fc22061e34"/>
+    <item
+        dex="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/build/intermediates/pre-dexed/debug/classes-ea475bac29e7d03dba3259c3b410779d273cdb31.jar"
+        jar="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.aware.plugin.lux_meter/aware-core/unspecified/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f219e755fced6f6e95eb744cbd1e7982ff6871c3"/>
+    <item
+        dex="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/build/intermediates/pre-dexed/debug/classes-12341fa03614589ffe3a7a990edb0edded84f644.jar"
+        jar="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="6c6b497aa9e3aadbaabf975379e7914fa9e65523"/>
+    <item
+        dex="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-46343f13dc8a8d80032074a2865adb0d89f89059.jar"
+        jar="/opt/android-sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e"/>
+    <item
+        dex="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-6583eccc672f81293586030d68e7f81a9d9a549a.jar"
+        jar="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0"/>
+    <item
+        dex="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/build/intermediates/pre-dexed/debug/classes-8b3162f2add85401852a551d774546e6aafd4517.jar"
+        jar="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.11/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="0f700f6802ba1a1f1fa7ac26d5db0666a89d75a6"/>
+    <item
+        dex="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/build/intermediates/pre-dexed/debug/classes-ec94575e2305de18675f72ca43e7fcaf3df85440.jar"
+        jar="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="95fd37732ec852e99f07eeb516a3650172f1d136"/>
 
 </pre-dex-items>

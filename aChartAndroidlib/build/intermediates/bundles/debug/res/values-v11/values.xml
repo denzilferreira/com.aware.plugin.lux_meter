@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/home/henri/Android_dev/com.aware.plugin.lux_meter/aChartAndroidlib/src/main/res/values-v11/styles.xml -->
+    <!-- From: file:/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aChartAndroidlib/src/main/res/values-v11/styles.xml -->
     <eat-comment />
 
     <style name="AppBaseTheme" parent="android:Theme.Holo.Light">

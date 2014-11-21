@@ -43,6 +43,7 @@ public class ContextCard implements IContextCard {
 	static String[] x_hours = new String[]{"0","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23"};
 	
 	public View getContextCard( Context context ) {
+        Log.d("asd", "getContextCard");
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View card = inflater.inflate(R.layout.layout, null);
 
@@ -59,13 +60,15 @@ public class ContextCard implements IContextCard {
         GraphicalView mChart = null;
 
         if(freq ==  0) {
+            Log.d("asd", "refresh graph 0");
             //Apply user-defined time window
             if( Aware.getSetting(context, Settings.TIME_WINDOW_PLUGIN_LUX_METER).length() == 0 ) {
                 Aware.setSetting(context, Settings.TIME_WINDOW_PLUGIN_LUX_METER, 5);
             }
+
             long delta_time = System.currentTimeMillis()-(Integer.valueOf(Aware.getSetting(context, Settings.TIME_WINDOW_PLUGIN_LUX_METER)) * 60 * 1000);
 
-            XYSeries frequency_series = new XYSeries("Frequency (Hz)");
+            XYSeries frequency_series = new XYSeries("Light (Lux)");
             Cursor light_cursor = context.getContentResolver().query(Light_Data.CONTENT_URI, null, Light_Data.TIMESTAMP + " > " + delta_time, null, Light_Data.TIMESTAMP + " ASC");
             if( light_cursor != null && light_cursor.moveToFirst() ) {
                 do {
@@ -87,16 +90,16 @@ public class ContextCard implements IContextCard {
 
             //Setup graph
             XYMultipleSeriesRenderer dataset_renderer = new XYMultipleSeriesRenderer();
-            dataset_renderer.setChartTitle("Ambient noise");
+            dataset_renderer.setChartTitle("Realtime Lux Chart");
             dataset_renderer.setApplyBackgroundColor(true);
             dataset_renderer.setBackgroundColor(Color.WHITE);
             dataset_renderer.setMarginsColor(Color.WHITE);
-            dataset_renderer.setAxesColor(Color.BLACK); //used in titles
+            dataset_renderer.setAxesColor(Color.BLACK); //used in titlesv
+            dataset_renderer.setYTitle("Lux");
             dataset_renderer.setXTitle("Time");
             dataset_renderer.setFitLegend(true);
             dataset_renderer.setXLabels(0);
             dataset_renderer.setYLabels(0);
-            dataset_renderer.setDisplayValues(false);
             dataset_renderer.setPanEnabled(false);
             dataset_renderer.setClickEnabled(false);
             dataset_renderer.setShowAxes(true);
@@ -110,6 +113,7 @@ public class ContextCard implements IContextCard {
             //put everything together
             mChart = (GraphicalView) ChartFactory.getLineChartView(context, dataset, dataset_renderer);
         } else {
+            Log.d("asd", "refresh graph other");
             Calendar c = Calendar.getInstance();
             c.setTimeInMillis(System.currentTimeMillis());
             c.set(Calendar.HOUR_OF_DAY, 0);

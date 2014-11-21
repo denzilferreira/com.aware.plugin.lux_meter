@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/aChartAndroidlib/aChartAndroidlib.iml" filepath="$PROJECT_DIR$/aChartAndroidlib/aChartAndroidlib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/aware-core/aware-core.iml" filepath="$PROJECT_DIR$/aware-core/aware-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../aware-client/aware-core/aware-core.iml" filepath="$PROJECT_DIR$/../aware-client/aware-core/aware-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.aware.plugin.lux_meter.iml" filepath="$PROJECT_DIR$/com.aware.plugin.lux_meter.iml" />
       <module fileurl="file://$PROJECT_DIR$/lux_meter/lux_meter.iml" filepath="$PROJECT_DIR$/lux_meter/lux_meter.iml" />
     </modules>

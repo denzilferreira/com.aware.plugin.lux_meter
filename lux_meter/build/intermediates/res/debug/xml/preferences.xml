@@ -32,4 +32,4 @@
         android:title="Enaught light to charge phone (in lux)"
         android:inputType="numberDecimal" />
 
-</PreferenceScreen><!-- From: file:/home/henri/Android_dev/com.aware.plugin.lux_meter/lux_meter/src/main/res/xml/preferences.xml -->
+</PreferenceScreen><!-- From: file:/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/src/main/res/xml/preferences.xml -->

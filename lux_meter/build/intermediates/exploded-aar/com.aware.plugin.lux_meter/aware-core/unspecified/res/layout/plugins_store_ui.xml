@@ -6,7 +6,6 @@
 
     <ScrollView
         xmlns:grid="http://schemas.android.com/apk/res-auto"
-        xmlns:app="http://schemas.android.com/apk/res/com.aware"
         android:id="@+id/plugins_store_scroller"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -24,13 +23,13 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:indeterminate="true"
-                android:padding="10dp"
-                android:background="@color/grey_background" />
+                android:padding="0dp"
+                android:layout_margin="0dp"/>
 
             <android.support.v7.widget.GridLayout
                 android:id="@+id/plugins_store_grid"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="fill_parent"
                 android:background="@color/grey_background"
                 grid:alignmentMode="alignMargins"
                 grid:columnCount="3"
@@ -51,4 +50,4 @@
         android:divider="@android:color/transparent"
         android:dividerHeight="0dp" />
 
-</android.support.v4.widget.DrawerLayout><!-- From: file:/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/layout/plugins_store_ui.xml -->
+</android.support.v4.widget.DrawerLayout><!-- From: file:/home/heppu/AndroidProjects/aware-client/aware-core/src/main/res/layout/plugins_store_ui.xml -->

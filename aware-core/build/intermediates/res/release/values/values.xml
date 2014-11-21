@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/values/arrays.xml -->
+    <!-- From: file:/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/values/arrays.xml -->
     <eat-comment />
 
     <string-array name="clean_old_data_readable">
@@ -14,7 +14,7 @@
         <item>1</item>
         <item>2</item>
     </string-array>
-    <!-- From: file:/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <attr name="actionBarDivider" format="reference" />
@@ -87,24 +87,24 @@
     <bool name="abc_config_allowActionMenuItemTextWithIcon">false</bool>
     <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
     <bool name="abc_split_action_bar_is_narrow">true</bool>
-    <!-- From: file:/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/values/bools.xml -->
+    <!-- From: file:/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/values/bools.xml -->
     <eat-comment />
 
     <item name="display_aware" format="boolean" type="bool">true</item>
     <item name="is_jelly_bean" type="bool">false</item>
     <item name="is_not_jelly_bean" type="bool">true</item>
-    <!-- From: file:/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <color name="abc_search_url_text_normal">#7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
     <color name="abc_search_url_text_selected">@android:color/black</color>
-    <!-- From: file:/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/values/color.xml -->
+    <!-- From: file:/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/values/color.xml -->
     <eat-comment />
 
     <color name="card_shadow">#AFAFAF</color>
     <color name="grey_background">#E5E5E5</color>
-    <!-- From: file:/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <declare-styleable name="ActionBar">
@@ -237,7 +237,7 @@
         <!-- Present the text in ALL CAPS. This may use a small-caps form when available. -->
         <attr name="textAllCaps" format="reference|boolean" />
     </declare-styleable>
-    <!-- From: file:/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <declare-styleable name="GridLayout">
@@ -423,7 +423,7 @@
             <flag name="end" value="0x00800005" />
         </attr>
     </declare-styleable>
-    <!-- From: file:/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <declare-styleable name="LinearLayoutICS">
@@ -725,11 +725,11 @@
     <dimen name="abc_panel_menu_list_width">296dp</dimen>
     <dimen name="abc_search_view_preferred_width">320dip</dimen>
     <dimen name="abc_search_view_text_min_width">160dip</dimen>
-    <!-- From: file:/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <dimen name="default_gap">16dip</dimen>
-    <!-- From: file:/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <item name="dialog_fixed_height_major" type="dimen">80%</item>
@@ -758,7 +758,7 @@
     <string name="abc_searchview_description_voice">Voice search</string>
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
-    <!-- From: file:/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/values/strings.xml -->
     <eat-comment />
 
     <string name="app_name">AWARE</string>
@@ -782,7 +782,7 @@
     <string name="drawer_open">Drawer is opened</string>
     <string name="read_permission">Allow read-only access to the Context Providers data.</string>
     <string name="write_permission">Allow read and write access to the Context Providers data.</string>
-    <!-- From: file:/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <style name="TextAppearance.AppCompat.Base.CompactMenu.Dialog" parent="android:TextAppearance.Medium">

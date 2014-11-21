@@ -1,27 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merger version="2" >
 
-    <dataSet config="19.1.0" >
-        <source path="/home/henri/Android_dev/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/19.1.0/assets" />
+    <dataSet config="21.0.0" >
+        <source path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/assets" />
     </dataSet>
-    <dataSet config="19.1.0" >
-        <source path="/home/henri/Android_dev/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/assets" />
+    <dataSet config="6.1.11" >
+        <source path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.11/assets" />
+    </dataSet>
+    <dataSet config="21.0.0" >
+        <source path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.0/assets" />
+    </dataSet>
+    <dataSet config="21.0.0" >
+        <source path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/21.0.0/assets" />
+    </dataSet>
+    <dataSet config="21.0.0" >
+        <source path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/assets" />
     </dataSet>
     <dataSet config="unspecified" >
-        <source path="/home/henri/Android_dev/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.aware.plugin.lux_meter/aware-core/unspecified/assets" >
+        <source path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.aware.plugin.lux_meter/aware-core/unspecified/assets" >
             <file
                 name="COPYRIGHT"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.aware.plugin.lux_meter/aware-core/unspecified/assets/COPYRIGHT" />
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.aware.plugin.lux_meter/aware-core/unspecified/assets/COPYRIGHT" />
         </source>
     </dataSet>
     <dataSet config="unspecified" >
-        <source path="/home/henri/Android_dev/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.aware.plugin.lux_meter/aChartAndroidlib/unspecified/assets" />
+        <source path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.aware.plugin.lux_meter/aChartAndroidlib/unspecified/assets" />
     </dataSet>
     <dataSet config="main" >
-        <source path="/home/henri/Android_dev/com.aware.plugin.lux_meter/lux_meter/src/main/assets" />
+        <source path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/src/main/assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/home/henri/Android_dev/com.aware.plugin.lux_meter/lux_meter/src/debug/assets" />
+        <source path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/src/debug/assets" />
     </dataSet>
 
 </merger>

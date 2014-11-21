@@ -1,9 +1,11 @@
 package com.aware.plugin.lux_meter;
 
 import android.app.IntentService;
+import android.content.BroadcastReceiver;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.database.Cursor;
@@ -11,10 +13,15 @@ import android.net.Uri;
 import android.util.Log;
 
 import com.aware.Aware;
+import com.aware.ui.Stream_UI;
 import com.aware.Aware_Preferences;
 import com.aware.plugin.lux_meter.Provider.LuxMeter_Data;
 import com.aware.providers.Light_Provider.Light_Data;
 import com.aware.utils.Aware_Plugin;
+
+import java.util.Timer;
+import java.util.TimerTask;
+import java.util.logging.Handler;
 
 public class Plugin extends Aware_Plugin {
 
@@ -44,6 +51,7 @@ public class Plugin extends Aware_Plugin {
 
     @Override
     public void onCreate() {
+        Log.d("asd", "onCreate");
         super.onCreate();
         TAG = "AWARE::Lux Meter";
         DEBUG = true;
@@ -80,11 +88,13 @@ public class Plugin extends Aware_Plugin {
         DATABASE_TABLES = Provider.DATABASE_TABLES;
         TABLES_FIELDS = Provider.TABLES_FIELDS;
         CONTEXT_URIS = new Uri[]{ LuxMeter_Data.CONTENT_URI };
+
         int interval_min =  Integer.parseInt(Aware.getSetting(getApplicationContext(), Settings.FREQUENCY_PLUGIN_LUX_METER));
         alarm.SetAlarm(Plugin.this, interval_min);
         temp_interval = interval_min;
 
         sharedpreferences = getSharedPreferences(LUXMETER_PREFS, Context.MODE_PRIVATE);
+
         if (sharedpreferences.contains(LAST_TIME)) {
             last_timestamp = sharedpreferences.getLong(LAST_TIME, System.currentTimeMillis());
         }
@@ -93,12 +103,24 @@ public class Plugin extends Aware_Plugin {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
+        Log.d("asd", "onStartCommand");
         int interval_min =  Integer.parseInt(Aware.getSetting(getApplicationContext(), Settings.FREQUENCY_PLUGIN_LUX_METER));
 
-        if(interval_min != temp_interval){
-            alarm.CancelAlarm(Plugin.this);
-            alarm.SetAlarm(Plugin.this, interval_min);
-            temp_interval = interval_min;
+        if (interval_min != temp_interval) {
+            Log.d("asd", "differ");
+            if(interval_min >= 1) {
+                Log.d("asd", "bigger");
+                alarm.CancelAlarm(Plugin.this);
+                alarm.SetAlarm(Plugin.this, interval_min);
+                temp_interval = interval_min;
+            } else {
+                Log.d("asd", "zero");
+                temp_interval = interval_min;
+                alarm.CancelAlarm(Plugin.this);
+                Aware.setSetting(getApplicationContext(), Aware_Preferences.STATUS_LIGHT, true);
+                Intent apply = new Intent(Aware.ACTION_AWARE_REFRESH);
+                getApplicationContext().sendBroadcast(apply);
+            }
         }
 
         return START_STICKY;
@@ -106,6 +128,7 @@ public class Plugin extends Aware_Plugin {
 
     @Override
     public void onDestroy() {
+        Log.d("asd", "onDestroy");
         super.onDestroy();
 
         alarm.CancelAlarm(Plugin.this);
@@ -118,6 +141,13 @@ public class Plugin extends Aware_Plugin {
     }
 
     protected static void getLight(Context context) {
+        Log.d("asd", "getLight");
+        try {
+            Thread.sleep(10000);
+        } catch(InterruptedException ex) {
+            Thread.currentThread().interrupt();
+        }
+
         Intent lux_Service = new Intent(context, Lux_Service.class);
         context.startService(lux_Service);
     }
@@ -129,7 +159,7 @@ public class Plugin extends Aware_Plugin {
 
         @Override
         protected void onHandleIntent(Intent intent) {
-
+            Log.d("asd", "onHandleIntent");
             Aware.setSetting(getApplicationContext(), Aware_Preferences.STATUS_LIGHT, false);
             Intent apply = new Intent(Aware.ACTION_AWARE_REFRESH);
             getApplicationContext().sendBroadcast(apply);

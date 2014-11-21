@@ -2,53 +2,9 @@
 <merger version="2" >
 
     <dataSet config="main" >
-        <source path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aChartAndroidlib/src/main/res" >
+        <source path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aChartAndroidlib/src/main/res" >
             <file
-                name="ic_launcher"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aChartAndroidlib/src/main/res/drawable-xhdpi/ic_launcher.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aChartAndroidlib/src/main/res/values/styles.xml"
-                qualifiers="" >
-
-                <style
-                    name="AppTheme"
-                    parent="AppBaseTheme" >
-
-                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
-                </style>
-
-                <style
-                    name="AppBaseTheme"
-                    parent="android:Theme.Light" >
-
-                    <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-                    -->
-                </style>
-            </file>
-            <file
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aChartAndroidlib/src/main/res/values/strings.xml"
-                qualifiers="" >
-                <string name="app_name" >AChartAndroid-lib
-                </string>
-            </file>
-            <file
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aChartAndroidlib/src/main/res/values-v11/styles.xml"
-                qualifiers="v11" >
-
-                <style
-                    name="AppBaseTheme"
-                    parent="android:Theme.Holo.Light" >
-
-                    <!-- API 11 theme customizations can go here. -->
-                </style>
-            </file>
-            <file
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aChartAndroidlib/src/main/res/values-v14/styles.xml"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aChartAndroidlib/src/main/res/values-v14/styles.xml"
                 qualifiers="v14" >
 
                 <style
@@ -60,20 +16,64 @@
             </file>
             <file
                 name="ic_launcher"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aChartAndroidlib/src/main/res/drawable-hdpi/ic_launcher.png"
-                qualifiers="hdpi-v4"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aChartAndroidlib/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aChartAndroidlib/src/main/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
                 name="ic_launcher"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aChartAndroidlib/src/main/res/drawable-mdpi/ic_launcher.png"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aChartAndroidlib/src/main/res/drawable-mdpi/ic_launcher.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
+            <file
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aChartAndroidlib/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="app_name" >AChartAndroid-lib
+                </string>
+            </file>
+            <file
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aChartAndroidlib/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                name="ic_launcher"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aChartAndroidlib/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
         </source>
-        <source path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aChartAndroidlib/build/generated/res/rs/release" />
-        <source path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aChartAndroidlib/build/generated/res/generated/release" />
+        <source path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aChartAndroidlib/build/generated/res/rs/release" />
+        <source path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aChartAndroidlib/build/generated/res/generated/release" />
     </dataSet>
     <dataSet config="release" >
-        <source path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aChartAndroidlib/src/release/res" />
+        <source path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aChartAndroidlib/src/release/res" />
     </dataSet>
 
 </merger>

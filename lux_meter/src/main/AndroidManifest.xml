@@ -20,9 +20,10 @@
         android:label="@string/app_name" >
         android:theme="@style/AppTheme" >
         <service android:name="com.aware.plugin.lux_meter.Plugin" android:exported="true" android:label="Lux Meter"></service>
+        <service android:exported="true" android:name="com.aware.plugin.lux_meter.Plugin$Lux_Service"></service>
         <service android:name="com.aware.Aware"></service>
         <service android:name="com.aware.Light"></service>
-        <receiver android:process=":remote" android:name="LuxAlarm"></receiver>
+        <receiver android:name="LuxAlarm"></receiver>
         <provider android:name="com.aware.plugin.lux_meter.Provider" android:authorities="${applicationId}.provider.lux_meter" android:enabled="true" android:exported="true" android:readPermission="com.aware.READ_CONTEXT_DATA" android:writePermission="com.aware.WRITE_CONTEXT_DATA"></provider>
         <activity android:name="com.aware.plugin.lux_meter.Settings" android:exported="true"></activity>
     </application>

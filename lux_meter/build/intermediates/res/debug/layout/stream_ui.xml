@@ -16,17 +16,7 @@
             android:layout_height="fill_parent"
             android:background="@color/grey_background"
             android:orientation="vertical"
-            android:padding="10dp"
-            android:animateLayoutChanges="true" >
-            
-            <ProgressBar
-                android:id="@+id/loading_stream"
-                style="?android:attr/progressBarStyleHorizontal"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:indeterminate="true" />
-            
-        </LinearLayout>
+            android:padding="10dp" />
     </ScrollView>
 
     <ListView
@@ -39,4 +29,4 @@
         android:divider="@android:color/transparent"
         android:dividerHeight="0dp" />
     
-</android.support.v4.widget.DrawerLayout><!-- From: file:/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/layout/stream_ui.xml --><!-- From: file:/home/henri/Android_dev/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.aware.plugin.lux_meter/aware-core/unspecified/res/layout/stream_ui.xml -->
+</android.support.v4.widget.DrawerLayout><!-- From: file:/home/heppu/AndroidProjects/aware-client/aware-core/src/main/res/layout/stream_ui.xml --><!-- From: file:/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.aware.plugin.lux_meter/aware-core/unspecified/res/layout/stream_ui.xml -->

@@ -2,339 +2,435 @@
 <merger version="2" >
 
     <dataSet config="main" >
-        <source path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res" >
-            <file
-                name="ic_stat_aware_plugin_dependency"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xxhdpi/ic_stat_aware_plugin_dependency.png"
-                qualifiers="xxhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_launcher"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xxhdpi/ic_launcher.png"
-                qualifiers="xxhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_pkg_updated"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xxhdpi/ic_pkg_updated.png"
-                qualifiers="xxhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_pkg_active"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xxhdpi/ic_pkg_active.png"
-                qualifiers="xxhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_stat_aware_update"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xxhdpi/ic_stat_aware_update.png"
-                qualifiers="xxhdpi-v4"
-                type="drawable" />
+        <source path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res" >
             <file
                 name="ic_launcher_settings"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xxhdpi/ic_launcher_settings.png"
-                qualifiers="xxhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_aware_plugins"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xxhdpi/ic_action_aware_plugins.png"
-                qualifiers="xxhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_pkg_download"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xxhdpi/ic_pkg_download.png"
-                qualifiers="xxhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_aware_studies"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xxhdpi/ic_action_aware_studies.png"
-                qualifiers="xxhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_aware_stream"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xxhdpi/ic_action_aware_stream.png"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xxhdpi/ic_launcher_settings.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="ic_action_aware_sensors"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xxhdpi/ic_action_aware_sensors.png"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xxhdpi/ic_action_aware_sensors.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
-                name="awareframework"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/raw/awareframework.keystore"
-                qualifiers=""
-                type="raw" />
+                name="ic_stat_aware_update"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xxhdpi/ic_stat_aware_update.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
             <file
-                name="aware"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/raw/aware.crt"
-                qualifiers=""
-                type="raw" />
+                name="ic_pkg_active"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xxhdpi/ic_pkg_active.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
             <file
-                name="esm_quick"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/layout/esm_quick.xml"
-                qualifiers=""
-                type="layout" />
+                name="ic_action_aware_stream"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xxhdpi/ic_action_aware_stream.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
             <file
-                name="plugins_store_pkg_list_item"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/layout/plugins_store_pkg_list_item.xml"
-                qualifiers=""
-                type="layout" />
+                name="ic_action_aware_studies"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xxhdpi/ic_action_aware_studies.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
             <file
-                name="aware_study_join"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/layout/aware_study_join.xml"
-                qualifiers=""
-                type="layout" />
+                name="ic_action_aware_plugins"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xxhdpi/ic_action_aware_plugins.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
             <file
-                name="aware_navigation_item"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/layout/aware_navigation_item.xml"
-                qualifiers=""
-                type="layout" />
+                name="ic_launcher"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
             <file
-                name="aware_ui"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/layout/aware_ui.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="plugins_store_ui"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/layout/plugins_store_ui.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="study_info"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/layout/study_info.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="plugins_store_pkg_detail"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/layout/plugins_store_pkg_detail.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="esm_likert"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/layout/esm_likert.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="stream_ui"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/layout/stream_ui.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="esm_radio"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/layout/esm_radio.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="esm_text"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/layout/esm_text.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="esm_checkbox"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/layout/esm_checkbox.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="aware_preferences"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/xml/aware_preferences.xml"
-                qualifiers=""
-                type="xml" />
-            <file
-                name="aware_accessibility_config"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/xml/aware_accessibility_config.xml"
-                qualifiers=""
-                type="xml" />
-            <file
-                name="anim_slide_out_left"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/anim/anim_slide_out_left.xml"
-                qualifiers=""
-                type="anim" />
-            <file
-                name="anim_slide_out_right"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/anim/anim_slide_out_right.xml"
-                qualifiers=""
-                type="anim" />
-            <file
-                name="anim_slide_in_left"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/anim/anim_slide_in_left.xml"
-                qualifiers=""
-                type="anim" />
-            <file
-                name="anim_slide_in_right"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/anim/anim_slide_in_right.xml"
-                qualifiers=""
-                type="anim" />
-            <file
-                name="ic_stat_aware_esm"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi-v11/ic_stat_aware_esm.png"
-                qualifiers="mdpi-v11"
+                name="ic_pkg_download"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xxhdpi/ic_pkg_download.png"
+                qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="ic_stat_aware_plugin_dependency"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi-v11/ic_stat_aware_plugin_dependency.png"
-                qualifiers="mdpi-v11"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xxhdpi/ic_stat_aware_plugin_dependency.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_pkg_updated"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xxhdpi/ic_pkg_updated.png"
+                qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="ic_stat_aware_update"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi-v11/ic_stat_aware_update.png"
-                qualifiers="mdpi-v11"
-                type="drawable" />
-            <file
-                name="ic_stat_aware_esm"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi-v11/ic_stat_aware_esm.png"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi-v11/ic_stat_aware_update.png"
                 qualifiers="hdpi-v11"
                 type="drawable" />
             <file
                 name="ic_stat_aware_plugin_dependency"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi-v11/ic_stat_aware_plugin_dependency.png"
-                qualifiers="hdpi-v11"
-                type="drawable" />
-            <file
-                name="ic_stat_aware_update"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi-v11/ic_stat_aware_update.png"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi-v11/ic_stat_aware_plugin_dependency.png"
                 qualifiers="hdpi-v11"
                 type="drawable" />
             <file
                 name="ic_stat_aware_esm"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_stat_aware_esm.png"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi-v11/ic_stat_aware_esm.png"
+                qualifiers="hdpi-v11"
+                type="drawable" />
+            <file
+                name="ic_launcher_settings"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_launcher_settings.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
-                name="ic_action_download"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_action_download.png"
+                name="ic_action_aware_sensors"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_action_aware_sensors.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_stat_aware_update"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_stat_aware_update.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_pkg_active"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_pkg_active.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_aware_stream"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_action_aware_stream.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="ic_drawer"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_drawer.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_stat_aware_plugin_dependency"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_stat_aware_plugin_dependency.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_launcher"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_launcher.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_update"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_action_update.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_pkg_updated"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_pkg_updated.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_pkg_active"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_pkg_active.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_settings"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_action_settings.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_stat_aware_update"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_stat_aware_update.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_launcher_settings"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_launcher_settings.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_aware_plugins"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_action_aware_plugins.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_pkg_download"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_pkg_download.png"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_drawer.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="ic_action_aware_studies"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_action_aware_studies.png"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_action_aware_studies.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
-                name="ic_action_aware_stream"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_action_aware_stream.png"
+                name="ic_action_aware_plugins"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_action_aware_plugins.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
-                name="ic_action_aware_sensors"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_action_aware_sensors.png"
+                name="ic_launcher"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_pkg_download"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_pkg_download.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_stat_aware_plugin_dependency"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_stat_aware_plugin_dependency.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_settings"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_action_settings.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_download"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_action_download.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_stat_aware_esm"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_stat_aware_esm.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_update"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_action_update.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_pkg_updated"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_pkg_updated.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="ic_action_nav_placeholder"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_action_nav_placeholder.png"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi/ic_action_nav_placeholder.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/values/color.xml"
-                qualifiers="" >
-                <color name="card_shadow" >#AFAFAF
-                </color>
-                <color name="grey_background" >#E5E5E5
-                </color>
+                name="ic_stat_aware_update"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xxhdpi-v11/ic_stat_aware_update.png"
+                qualifiers="xxhdpi-v11"
+                type="drawable" />
+            <file
+                name="ic_stat_aware_plugin_dependency"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xxhdpi-v11/ic_stat_aware_plugin_dependency.png"
+                qualifiers="xxhdpi-v11"
+                type="drawable" />
+            <file
+                name="awareframework"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/raw/awareframework.keystore"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="aware"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/raw/aware.crt"
+                qualifiers=""
+                type="raw" />
+            <file
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/values-v16/bools.xml"
+                qualifiers="v16" >
+                <item
+                    name="is_not_jelly_bean"
+                    type="bool">
+false
+                </item>
+                <item
+                    name="is_jelly_bean"
+                    type="bool">
+true
+                </item>
             </file>
             <file
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/values/strings.xml"
+                name="ic_launcher_settings"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_launcher_settings.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_aware_sensors"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_action_aware_sensors.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_stat_aware_update"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_stat_aware_update.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_pkg_active"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_pkg_active.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_aware_stream"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_action_aware_stream.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_drawer"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_drawer.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_aware_studies"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_action_aware_studies.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_aware_plugins"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_action_aware_plugins.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_pkg_download"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_pkg_download.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_stat_aware_plugin_dependency"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_stat_aware_plugin_dependency.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_settings"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_action_settings.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_download"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_action_download.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_stat_aware_esm"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_stat_aware_esm.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_update"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_action_update.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_pkg_updated"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_pkg_updated.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_nav_placeholder"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_action_nav_placeholder.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="plugins_store_pkg_detail"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/layout/plugins_store_pkg_detail.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="esm_checkbox"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/layout/esm_checkbox.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="plugins_store_ui"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/layout/plugins_store_ui.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="study_info"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/layout/study_info.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="esm_radio"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/layout/esm_radio.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="aware_ui"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/layout/aware_ui.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="plugins_store_pkg_list_item"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/layout/plugins_store_pkg_list_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="esm_text"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/layout/esm_text.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="aware_navigation_item"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/layout/aware_navigation_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="stream_ui"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/layout/stream_ui.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="esm_likert"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/layout/esm_likert.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="aware_study_join"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/layout/aware_study_join.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="esm_quick"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/layout/esm_quick.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="anim_slide_out_left"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/anim/anim_slide_out_left.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="anim_slide_in_right"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/anim/anim_slide_in_right.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="anim_slide_in_left"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/anim/anim_slide_in_left.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="anim_slide_out_right"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/anim/anim_slide_out_right.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="ic_stat_aware_update"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi-v11/ic_stat_aware_update.png"
+                qualifiers="mdpi-v11"
+                type="drawable" />
+            <file
+                name="ic_stat_aware_plugin_dependency"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi-v11/ic_stat_aware_plugin_dependency.png"
+                qualifiers="mdpi-v11"
+                type="drawable" />
+            <file
+                name="ic_stat_aware_esm"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi-v11/ic_stat_aware_esm.png"
+                qualifiers="mdpi-v11"
+                type="drawable" />
+            <file
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/values/strings.xml"
                 qualifiers="" >
-                <string name="aware_auto_update_version" >Installed version is ???
+                <string name="aware_plugins" >Plugins
                 </string>
                 <string name="aware_description" >AWARE is an Android\'s framework dedicated to infer, log and share mobile context information between mobile applications. Check www.awareframework.com for details.
                 </string>
-                <string name="aware_plugins" >Plugins
-                </string>
                 <string name="aware_developer" >Developer
-                </string>
-                <string name="drawer_close" >Drawer is closed
-                </string>
-                <string name="app_name" >AWARE
                 </string>
                 <string name="write_permission" >Allow read and write access to the Context Providers data.
                 </string>
+                <string name="aware_activate_accessibility" >Please activate AWARE here for overall stability.
+                </string>
                 <string name="aware_stream" >AWARE Stream
                 </string>
-                <string name="aware_debug_title" >Debug
+                <string name="drawer_close" >Drawer is closed
                 </string>
                 <string name="aware_auto_update" >Check for updates
                 </string>
-                <string name="aware_debug_summary" >Show in ADB Logcat all debug messages for plugins and AWARE
-                </string>
-                <string name="read_permission" >Allow read-only access to the Context Providers data.
-                </string>
-                <string name="aware_studies" >Studies
-                </string>
-                <string name="aware_activate_accessibility" >Please activate AWARE here for overall stability.
-                </string>
                 <string name="aware_debug_tag_summary" >Overrides the ADB logcat tag
-                </string>
-                <string name="aware_esm_questions" >Hello, could you answer some questions?
-                </string>
-                <string name="aware_camera_scan" >QRCode
                 </string>
                 <string name="aware_device_id" >AWARE Device ID
                 </string>
-                <string name="drawer_open" >Drawer is opened
+                <string name="aware_debug_tag" >Logcat tag (by default: AWARE)
+                </string>
+                <string name="aware_esm_questions" >Hello, could you answer some questions?
+                </string>
+                <string name="aware_auto_update_version" >Installed version is ???
+                </string>
+                <string name="aware_debug_summary" >Show in ADB Logcat all debug messages for plugins and AWARE
+                </string>
+                <string name="app_name" >AWARE
                 </string>
                 <string name="aware_sensors" >AWARE
                 </string>
-                <string name="aware_debug_tag" >Logcat tag (by default: AWARE)
+                <string name="aware_camera_scan" >QRCode
+                </string>
+                <string name="aware_debug_title" >Debug
+                </string>
+                <string name="drawer_open" >Drawer is opened
+                </string>
+                <string name="aware_studies" >Studies
+                </string>
+                <string name="read_permission" >Allow read-only access to the Context Providers data.
                 </string>
             </file>
             <file
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/values/bools.xml"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/values/bools.xml"
                 qualifiers="" >
+                <item
+                    name="is_jelly_bean"
+                    type="bool">
+false
+                </item>
                 <item
                     name="display_aware"
                     format="boolean"
@@ -346,26 +442,10 @@ true
                     type="bool">
 true
                 </item>
-                <item
-                    name="is_jelly_bean"
-                    type="bool">
-false
-                </item>
             </file>
             <file
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/values/arrays.xml"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/values/arrays.xml"
                 qualifiers="" >
-                <string-array name="clean_old_data_readable" >
-                    <item>
-Never
-                    </item>
-                    <item>
-Weekly
-                    </item>
-                    <item>
-Monthly
-                    </item>
-                </string-array>
                 <string-array name="clean_old_data_values" >
                     <item>
 0
@@ -377,222 +457,142 @@ Monthly
 2
                     </item>
                 </string-array>
+                <string-array name="clean_old_data_readable" >
+                    <item>
+Never
+                    </item>
+                    <item>
+Weekly
+                    </item>
+                    <item>
+Monthly
+                    </item>
+                </string-array>
             </file>
             <file
-                name="ic_stat_aware_plugin_dependency"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xxhdpi-v11/ic_stat_aware_plugin_dependency.png"
-                qualifiers="xxhdpi-v11"
-                type="drawable" />
-            <file
-                name="ic_stat_aware_update"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xxhdpi-v11/ic_stat_aware_update.png"
-                qualifiers="xxhdpi-v11"
-                type="drawable" />
-            <file
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/values-v16/bools.xml"
-                qualifiers="v16" >
-                <item
-                    name="is_jelly_bean"
-                    type="bool">
-true
-                </item>
-                <item
-                    name="is_not_jelly_bean"
-                    type="bool">
-false
-                </item>
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/values/color.xml"
+                qualifiers="" >
+                <color name="grey_background" >#E5E5E5
+                </color>
+                <color name="card_shadow" >#AFAFAF
+                </color>
             </file>
-            <file
-                name="ic_stat_aware_esm"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_stat_aware_esm.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_download"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_action_download.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_drawer"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_drawer.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_stat_aware_plugin_dependency"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_stat_aware_plugin_dependency.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_launcher"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_launcher.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_update"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_action_update.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_pkg_updated"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_pkg_updated.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_pkg_active"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_pkg_active.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_settings"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_action_settings.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_stat_aware_update"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_stat_aware_update.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
             <file
                 name="ic_launcher_settings"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_launcher_settings.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_aware_plugins"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_action_aware_plugins.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_pkg_download"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_pkg_download.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_aware_studies"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_action_aware_studies.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_aware_stream"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_action_aware_stream.png"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_launcher_settings.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="ic_action_aware_sensors"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_action_aware_sensors.png"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_action_aware_sensors.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
-                name="ic_action_nav_placeholder"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_action_nav_placeholder.png"
+                name="ic_stat_aware_update"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_stat_aware_update.png"
                 qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_stat_aware_esm"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_stat_aware_esm.png"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_download"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_action_download.png"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_drawer"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_drawer.png"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_stat_aware_plugin_dependency"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_stat_aware_plugin_dependency.png"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_launcher"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_launcher.png"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_update"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_action_update.png"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_pkg_updated"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_pkg_updated.png"
-                qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="ic_pkg_active"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_pkg_active.png"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_settings"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_action_settings.png"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_stat_aware_update"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_stat_aware_update.png"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_launcher_settings"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_launcher_settings.png"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_aware_plugins"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_action_aware_plugins.png"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_pkg_download"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_pkg_download.png"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_aware_studies"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_action_aware_studies.png"
-                qualifiers="mdpi-v4"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_pkg_active.png"
+                qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="ic_action_aware_stream"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_action_aware_stream.png"
-                qualifiers="mdpi-v4"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_action_aware_stream.png"
+                qualifiers="hdpi-v4"
                 type="drawable" />
             <file
-                name="ic_action_aware_sensors"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_action_aware_sensors.png"
-                qualifiers="mdpi-v4"
+                name="ic_drawer"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_drawer.png"
+                qualifiers="hdpi-v4"
                 type="drawable" />
             <file
-                name="ic_action_nav_placeholder"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-mdpi/ic_action_nav_placeholder.png"
-                qualifiers="mdpi-v4"
+                name="ic_action_aware_studies"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_action_aware_studies.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_aware_plugins"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_action_aware_plugins.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_pkg_download"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_pkg_download.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_stat_aware_plugin_dependency"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_stat_aware_plugin_dependency.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_settings"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_action_settings.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_download"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_action_download.png"
+                qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="ic_stat_aware_esm"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi-v11/ic_stat_aware_esm.png"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_stat_aware_esm.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_update"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_action_update.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_pkg_updated"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_pkg_updated.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_nav_placeholder"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-hdpi/ic_action_nav_placeholder.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="aware_preferences"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/xml/aware_preferences.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="aware_accessibility_config"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/xml/aware_accessibility_config.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="ic_stat_aware_update"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi-v11/ic_stat_aware_update.png"
                 qualifiers="xhdpi-v11"
                 type="drawable" />
             <file
                 name="ic_stat_aware_plugin_dependency"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi-v11/ic_stat_aware_plugin_dependency.png"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi-v11/ic_stat_aware_plugin_dependency.png"
                 qualifiers="xhdpi-v11"
                 type="drawable" />
             <file
-                name="ic_stat_aware_update"
-                path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi-v11/ic_stat_aware_update.png"
+                name="ic_stat_aware_esm"
+                path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/main/res/drawable-xhdpi-v11/ic_stat_aware_esm.png"
                 qualifiers="xhdpi-v11"
                 type="drawable" />
         </source>
-        <source path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/build/generated/res/rs/release" />
-        <source path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/build/generated/res/generated/release" />
+        <source path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/build/generated/res/rs/release" />
+        <source path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/build/generated/res/generated/release" />
     </dataSet>
     <dataSet config="release" >
-        <source path="/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/release/res" />
+        <source path="/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/src/release/res" />
     </dataSet>
 
 </merger>

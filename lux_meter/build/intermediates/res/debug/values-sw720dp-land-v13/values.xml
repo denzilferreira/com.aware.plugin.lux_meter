@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/home/henri/Android_dev/com.aware.plugin.lux_meter/lux_meter/src/main/res/values-sw720dp-land/dimens.xml -->
+    <!-- From: file:/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/src/main/res/values-sw720dp-land/dimens.xml -->
     <eat-comment />
 
     <dimen name="activity_horizontal_margin">128dp</dimen>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/home/henri/Android_dev/com.aware.plugin.lux_meter/aChartAndroidlib/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aChartAndroidlib/src/main/res/values/strings.xml -->
     <eat-comment />
 
     <string name="app_name">AChartAndroid-lib</string>
-    <!-- From: file:/home/henri/Android_dev/com.aware.plugin.lux_meter/aChartAndroidlib/src/main/res/values/styles.xml -->
+    <!-- From: file:/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aChartAndroidlib/src/main/res/values/styles.xml -->
     <eat-comment />
 
     <style name="AppBaseTheme" parent="android:Theme.Light">

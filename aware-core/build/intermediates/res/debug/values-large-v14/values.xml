@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-large-v14/values.xml -->
+    <!-- From: file:/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/aware-core/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-large-v14/values.xml -->
     <eat-comment />
 
     <style name="Theme.Base.AppCompat.DialogWhenLarge" parent="Theme.Base.AppCompat.DialogWhenLarge.Base" />

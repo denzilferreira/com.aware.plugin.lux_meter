@@ -3,7 +3,7 @@
     android:id="@+id/aware_ui_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
-    
+
     <ListView
         android:id="@android:id/list"
         android:layout_width="fill_parent"
@@ -13,10 +13,10 @@
         android:id="@+id/aware_navigation"
         android:layout_width="240dp"
         android:layout_height="match_parent"
-        android:layout_gravity="left"
+        android:layout_gravity="left|start"
         android:background="#111"
         android:choiceMode="singleChoice"
         android:divider="@android:color/transparent"
         android:dividerHeight="0dp" />
 
-</android.support.v4.widget.DrawerLayout><!-- From: file:/home/henri/Android_dev/com.aware.plugin.lux_meter/aware-core/src/main/res/layout/aware_ui.xml --><!-- From: file:/home/henri/Android_dev/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.aware.plugin.lux_meter/aware-core/unspecified/res/layout/aware_ui.xml -->
+</android.support.v4.widget.DrawerLayout><!-- From: file:/home/heppu/AndroidProjects/aware-client/aware-core/src/main/res/layout/aware_ui.xml --><!-- From: file:/home/heppu/AndroidProjects/com.aware.plugin.lux_meter/lux_meter/build/intermediates/exploded-aar/com.aware.plugin.lux_meter/aware-core/unspecified/res/layout/aware_ui.xml -->
